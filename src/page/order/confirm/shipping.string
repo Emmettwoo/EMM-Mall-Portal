@@ -1,0 +1,23 @@
+{{#list}}
+    {{#isActive}}
+        <div class="shipping-item active" data-id="{{id}}">
+    {{/isActive}}
+    {{^isActive}}
+        <div class="shipping-item" data-id="{{id}}">
+    {{/isActive}}
+        <div class="shipping-title">
+            {{receiverName}}&nbsp;&nbsp;&nbsp;{{receiverPhone}}
+        </div>
+        <div class="shipping-detail">
+            {{receiverProvince}}&nbsp;{{receiverCity}}&nbsp;{{receiverDistrict}}&nbsp;{{receiverAddress}}
+        </div>
+        <div class="shipping-opera">
+            <span class="link shipping-update">编辑</span>
+            <span class="link shipping-delete">删除</span>
+        </div>
+    </div>
+{{/list}}
+<div class="shipping-new">
+    <i class="fa fa-plus"></i>
+    <div class="text">使用新地址</div>
+</div>

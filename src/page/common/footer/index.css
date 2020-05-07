@@ -1,0 +1,23 @@
+.footer {
+	padding-bottom: 10px;
+}
+
+.links {
+	text-align: center;
+	color: #666666;
+	line-height: 30px;
+}
+.footer .links .link {
+	padding: 0 10px;
+}
+
+.copyright {
+	text-align: center;
+	color: #666666;
+	line-height: 30px;
+}
+
+hr {
+	margin-top: 20px;
+	color: #666666;
+}

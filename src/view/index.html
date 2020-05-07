@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="cn">
+	<head>
+		<title><%=htmlWebpackPlugin.options.title%> @ EMM-Mall</title>
+		<%= require('html-loader!./layout/head-common.html') %>
+	</head>
+	<body>
+		<%= require('html-loader!./layout/nav.html') %>
+		<%= require('html-loader!./layout/header.html') %>
+		<div class="w">
+			<!-- 品类导航栏 -->
+			<ul class="category-list">
+				<div class="category-item">
+					<li class="category-first">
+						<a class="link" target="_blank" href="./list.html?categoryId=100001">家用电器</a>
+					</li>
+					<li class="category-second">
+						<a class="link" target="_blank" href="./list.html?categoryId=100006">冰箱</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100007">电视</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100008">洗衣机</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100009">空调</a>
+					</li>
+				</div>
+				<div class="category-item">
+					<li class="category-first">
+						<a class="link" target="_blank" href="./list.html?categoryId=100002">数码3C</a>
+					</li>
+					<li class="category-second">
+						<a class="link" target="_blank" href="./list.html?categoryId=100011">电脑</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100012">手机</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100014">数码相机</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100015">3C配件</a>
+					</li>
+				</div>
+				<div class="category-item">
+					<li class="category-first">
+						<a class="link" target="_blank" href="./list.html?categoryId=100003">服装箱包</a>
+					</li>
+					<li class="category-second">
+						<a class="link" target="_blank" href="./list.html?categoryId=100016">女装</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100017">帽子</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100018">旅行箱</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100019">手提包</a>
+					</li>
+				</div>
+				<div class="category-item">
+					<li class="category-first">
+						<a class="link" target="_blank" href="./list.html?categoryId=100004">食品生鲜</a>
+					</li>
+					<li class="category-second">
+						<a class="link" target="_blank" href="./list.html?categoryId=100021">零食</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100022">生鲜</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100024">速冻食品</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100025">进口食品</a>
+					</li>
+				</div>
+				<div class="category-item">
+					<li class="category-first">
+						<a class="link" target="_blank" href="./list.html?categoryId=100005">酒水饮料</a>
+					</li>
+					<li class="category-second">
+						<a class="link" target="_blank" href="./list.html?categoryId=100028">饮料</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100026">白酒</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100027">红酒</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100030">进口洋酒</a>
+					</li>
+				</div>
+			</ul>
+			<!-- 首页轮播图 -->
+			<div class="banner-content">
+				<div class="loading"></div>
+			</div>
+		</div>
+		
+		<!-- 商品楼层展示 -->
+		<div class="w">
+			
+			<div class="floor-wrap">
+				<h1 class="floor-title">F1 家用电器</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./detail.html?productId=2">
+							<span class="floor-text">美的 双开门冰箱</span>
+							<img class="floor-image" src="http://img.woohoo.top/ac3e571d-13ce-4fad-89e8-c92c2eccf536.jpeg" alt="美的 双开门冰箱" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=2">
+							<span class="floor-text">美的 双开门冰箱</span>
+							<img class="floor-image" src="http://img.woohoo.top/ac3e571d-13ce-4fad-89e8-c92c2eccf536.jpeg" alt="美的 双开门冰箱" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=2">
+							<span class="floor-text">美的 双开门冰箱</span>
+							<img class="floor-image" src="http://img.woohoo.top/ac3e571d-13ce-4fad-89e8-c92c2eccf536.jpeg" alt="美的 双开门冰箱" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=4">
+							<span class="floor-text">海尔 滚筒洗衣机</span>
+							<img class="floor-image" src="http://img.woohoo.top/173335a4-5dce-4afd-9f18-a10623724c4e.jpeg" alt="海尔 滚筒洗衣机" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=4">
+							<span class="floor-text">海尔 滚筒洗衣机</span>
+							<img class="floor-image" src="http://img.woohoo.top/173335a4-5dce-4afd-9f18-a10623724c4e.jpeg" alt="海尔 滚筒洗衣机" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="floor-wrap">
+				<h1 class="floor-title">F2 数码3C</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./detail.html?productId=1">
+							<span class="floor-text">Apple iPhone 7 Plus</span>
+							<img class="floor-image" src="http://img.woohoo.top/241997c4-9e62-4824-b7f0-7425c3c28917.jpeg" alt="Apple iPhone 7 Plus" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=1">
+							<span class="floor-text">Apple iPhone 7 Plus</span>
+							<img class="floor-image" src="http://img.woohoo.top/241997c4-9e62-4824-b7f0-7425c3c28917.jpeg" alt="Apple iPhone 7 Plus" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=3">
+							<span class="floor-text">华为 nova P9/P10plus</span>
+							<img class="floor-image" src="http://img.woohoo.top/0093f5d3-bdb4-4fb0-bec5-5465dfd26363.jpeg" alt="华为 nova P9/P10plus" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=3">
+							<span class="floor-text">华为 nova P9/P10plus</span>
+							<img class="floor-image" src="http://img.woohoo.top/0093f5d3-bdb4-4fb0-bec5-5465dfd26363.jpeg" alt="华为 nova P9/P10plus" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=3">
+							<span class="floor-text">华为 nova P9/P10plus</span>
+							<img class="floor-image" src="http://img.woohoo.top/0093f5d3-bdb4-4fb0-bec5-5465dfd26363.jpeg" alt="华为 nova P9/P10plus" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="floor-wrap">
+				<h1 class="floor-title">F3 服装箱包</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="floor-wrap">
+				<h1 class="floor-title">F4 食品生鲜</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="floor-wrap">
+				<h1 class="floor-title">F5 酒水饮料</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./detail.html?productId=0">
+							<span class="floor-text">不存在的商品</span>
+							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<%= require('html-loader!./layout/footer.html') %>
+	</body>
+</html>

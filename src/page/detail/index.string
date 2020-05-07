@@ -1,0 +1,48 @@
+<div class="intro-wrap">
+    <div class="product-image">
+        <div class="main-image-item">
+            <img class="main-image" src={{imageHost}}{{mainImage}} alt="{{name}}" />
+        </div>
+        <ul class="sub-image-list">
+            <!-- 循环获取子图片信息，'.'代表索引当前元素 -->
+            {{#subImages}}
+                <li class="sub-image-item"><img class="sub-image" src={{imageHost}}{{.}} alt="{{name}}" /></li>
+            {{/subImages}}
+        </ul>
+    </div>
+    
+    <div class="product-info">
+        <h1 class="product-title">{{name}}</h1>
+        <p class="product-subtitle">{{subtitle}}</p>
+        <div class="info-list">
+            <div class="info-item price">
+                <span class="label">价格: </span>
+                <span class="value">￥{{price}}</span>
+            </div>
+            <div class="info-item stock">
+                <span class="label">库存: </span>
+                <span class="value">{{stock}}</span>
+            </div>
+            <div class="info-item amount">
+                <span class="label">数量: </span>
+                <input class="cart-amount" data-max="{{stock}}" value="1"></input>
+                <span class="cart-amount-button plus">+</span>
+                <span class="cart-amount-button minus">-</span>
+            </div>
+            <div class="info-item">
+                <a class="button cart-add">加入购物车</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="detail-wrap">
+    <div class="detail-tab-content">
+        <ul class="tab-list">
+            <li class="tab-item active">商品描述</li>
+        </ul>
+    </div>
+    <div class="detail-content">
+        {{{detail}}}
+    </div>
+</div>

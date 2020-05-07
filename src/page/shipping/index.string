@@ -1,0 +1,61 @@
+<div class="mask window-close">
+    <div class="shipping-new-window">
+        <div class="window-header">
+            {{#isUpdate}}
+                <h1 class="window-title">更新该地址</h1>
+            {{/isUpdate}}
+            {{^isUpdate}}
+                <h1 class="window-title">使用新地址</h1>
+            {{/isUpdate}}
+            <i class="fa fa-close window-close"></i>
+        </div>
+        <div class="window-body">
+            <div class="shipping-content">
+                <div class="content-line">
+                    <label class="content-title" for="receiver-name">
+                        <span class="required">*</span>收件人姓名: 
+                    </label>
+                    <input class="content-input" id="receiver-name"
+                    placeholder="请输入收件人姓名" value="{{data.receiverName}}"></input>
+                </div>
+                <div class="content-line">
+                    <label class="content-title" for="receiver-province">
+                        <span class="required">*</span>所在省市: 
+                    </label>
+                    <select class="content-select" id="receiver-province">
+                        <option value="0">请选择</option>
+                    </select>
+                    <select class="content-select" id="receiver-city">
+                        <option value="0">请选择</option>
+                    </select>
+                    <select class="content-select" id="receiver-district">
+                        <option value="0">请选择</option>
+                    </select>
+                </div>
+                <div class="content-line">
+                    <label class="content-title" for="receiver-address">
+                        <span class="required">*</span>详细地址: 
+                    </label>
+                    <input class="content-input" id="receiver-address"
+                    placeholder="请精确到门牌号，且不要输入空格" value="{{data.receiverAddress}}"></input>
+                </div>
+                <div class="content-line">
+                    <label class="content-title" for="receiver-phone">
+                        <span class="required">*</span>手机号码: 
+                    </label>
+                    <input class="content-input" id="receiver-phone"
+                    placeholder="请输入11位手机号码" value="{{data.receiverPhone}}"></input>
+                </div>
+                <div class="content-line">
+                    <label class="content-title" for="receiver-zip">邮政编码: </label>
+                    <input class="content-input" id="receiver-zip"
+                    placeholder="如：100000" value="{{data.receiverZip}}"></input>
+                </div>
+                <div class="content-line">
+                    <input type="hidden" id="shipping-id" value="{{data.id}}"></input>
+                    <a class="button shipping-add-button">保存收货地址</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

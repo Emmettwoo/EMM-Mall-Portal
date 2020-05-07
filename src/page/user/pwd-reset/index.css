@@ -1,0 +1,96 @@
+/* 最外层容器 */
+.page-wrap {
+    padding: 40px 0;
+    background: #e72955;
+}
+
+/* 表单框 */
+.user-content {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    background: #ffffff;
+    outline: none;
+}
+.user-content .user-title {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #dddddd;
+    font-size: 25px;
+    font-weight: bold;
+    color: #666;
+}
+.user-content .user-box {
+    padding: 20px;
+}
+
+/* 错误提示及其图标 */
+.user-content .user-box .error-item {
+    position: relative;
+    padding: 4px 0 4px 40px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    color: red;
+    background: #fde9e9;
+    display: none;
+}
+.user-content .user-box .error-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    font-size: 14px;
+    /* 居中开始，上调font-size一半 */
+    margin-top: -7px;
+}
+
+/* 密码重置分步骤 */
+.user-content .reset-step {
+    display: none;
+}
+
+/* 输入框容器 */
+.user-content .user-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+.user-content .user-item .user-label{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-right: 1px solid #bdbdbd;
+    width: 40px;
+    line-height: 36px;
+    background: #f3f3f3;
+    font-size: 18px;
+    color: #d3d3d3;
+    text-align: center;
+}
+.user-content .user-item .user-info {
+    padding: 10px 0 10px 50px;
+    width: 308px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 15px;
+    border: 1px solid #bdbdbd;
+}
+
+.user-content .button.submit {
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* 跳转链接 */
+.user-content .user-box .links {
+    text-align: right;
+    margin-top: 10px;
+}
+.user-content .user-box .links .link {
+    margin-left: 10px;
+    color: #666666;
+}
+.user-content .user-box .links .link:hover {
+    color: #e80012;
+}

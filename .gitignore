@@ -1,0 +1,15 @@
+# eclipse/vsc files
+.settings/
+.project
+.classpath
+
+# idea files
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# nodejs files
+/node_modules
+/dist

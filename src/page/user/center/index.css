@@ -1,0 +1,10 @@
+.info-line {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.info-line .label {
+    display: inline-block;
+    width: 80px;
+}

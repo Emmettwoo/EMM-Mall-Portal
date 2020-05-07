@@ -1,0 +1,74 @@
+<div class="panel">
+    <div class="panel-title">订单信息</div>
+    <div class="panel-body">
+        <div class="order-detail-content">
+            <div class="text-line">
+                <span class="text-title">订单号码:&nbsp;</span>
+                <span class="text-value">{{orderNo}}</span>
+            </div>
+            <div class="text-line">
+                <span class="text-title">创建时间:&nbsp;</span>
+                <span class="text-value">{{createTime}}</span>
+            </div>
+            <div class="text-line">
+                <span class="text-title">收件信息:&nbsp;</span>
+                <span class="text-value">
+                    {{receiverName}}&nbsp;
+                    {{shippingVO.receiverPhone}}&nbsp;
+                    {{shippingVO.receiverProvince}}&nbsp;
+                    {{shippingVO.receiverCity}}&nbsp;
+                    {{shippingVO.receiverAddress}}&nbsp;
+                </span>
+            </div>
+            <div class="text-line">
+                <span class="text-title">订单状态:&nbsp;</span>
+                <span class="text-value">{{statusDesc}}</span>
+            </div>
+            <div class="text-line">
+                <span class="text-title">支付方式:&nbsp;</span>
+                <span class="text-value">{{paymentTypeDesc}}</span>
+            </div>
+            <div class="text-line">
+                {{#isPaidAble}}
+                    <a class="button" href="./payment.html?orderNo={{orderNo}}">立即支付</a>
+                {{/isPaidAble}}
+                {{#isCancelAble}}
+                    <a class="button order-cancel">取消订单</a>
+                {{/isCancelAble}}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel">
+    <div class="panel-title">订单商品</div>
+    <div class="panel-body">
+        <table class="order-product-content">
+            <tr>
+                <th class="title-cell cell-image">&nbsp;</th>
+                <th class="title-cell cell-info">商品信息</th>
+                <th class="title-cell cell-price">单价</th>
+                <th class="title-cell cell-amount">数量</th>
+                <th class="title-cell cell-total">小计</th>
+            </tr>
+            {{#orderItemVOList}}
+                <tr>
+                    <td class="cell cell-image">
+                        <a class="link" href="./detail.html?productId={{productId}}" target="_blank">
+                            <img class="product-image" src="{{imageHost}}{{productImage}}" alt="{{productName}}" />
+                        </a>
+                    </td>
+                    <td class="cell cell-info">
+                        <a class="link" href="./detail.html?productId={{productId}}" target="_blank">{{productName}}</a>
+                    </td>
+                    <td class="cell cell-price">￥{{currentUnitPrice}}</td>
+                    <td class="cell cell-amount">{{quantity}}</td>
+                    <td class="cell cell-total">￥{{totalPrice}}</td>
+                </tr>
+            {{/orderItemVOList}}
+        </table>
+        <p class="order-total">
+            <span>订单总价: </span>
+            <span class="total-price">￥{{payment}}</span>
+        </p>
+    </div>
+</div>

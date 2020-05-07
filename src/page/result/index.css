@@ -1,0 +1,24 @@
+.page-wrap {
+    padding: 30px 0;
+    margin-top: 20px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.result-content {
+    display: none;
+}
+
+.result-content .content-title {
+    color: #555555;
+}
+
+.result-content .content-action {
+    margin-top: 20px;
+}
+
+.result-content .content-action .link{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}

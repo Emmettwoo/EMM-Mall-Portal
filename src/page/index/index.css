@@ -1,0 +1,132 @@
+/* 左侧品类导航 */
+.category-list {
+    float: left;
+    width: 240px;
+    height: 350px;
+    padding: 10px 0;
+    margin-left: 10px;
+    background: #666666;
+    color: #ffffff;
+}
+.category-list .category-item:hover {
+    background: #999999;
+}
+.category-list .category-item .category-first {
+    padding-left: 10px;
+    height: 35x;
+    line-height: 35px;
+    font-size: 18px;
+}
+.category-list .category-item .category-second {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.category-list .category-item .link {
+    color: #ffffff;
+    margin-right: 5px;
+}
+.category-list .category-item .link:hover {
+    color: #c60023;
+}
+
+/* 首页轮播图 */
+.banner-content {
+    width: 830px;
+    float: left;
+    /* category-list.padding&height */
+    height: 370px;
+    background: #eeeeee;
+}
+.banner-content .loading {
+    margin-top: 150px;
+}
+.banner-content .banner-image {
+    width: 100%;
+    height: 370px;
+}
+/* 首页轮播图前后跳转箭头 */
+.banner-content .banner-arrow {
+    position: absolute;
+    top: 160px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    background: #cccccc;
+    background: rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.banner-content .banner-arrow:hover {
+    background: #aaaaaa;
+    background: rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+.banner-content .banner-arrow.prev {
+    left: 0;
+}
+.banner-content .banner-arrow.next {
+    right: 0;
+}
+
+/* 商品楼层展示 */
+.floor-wrap .floor-title {
+    height: 50px;
+    line-height: 50px;
+    color: #d58717;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px solid #d58717;
+}
+/* 更改楼层主题颜色 */
+.floor-wrap:nth-child(2) .floor-title {
+    color: #3b838c;
+    border-bottom: 1px solid #3b838c;
+}
+.floor-wrap:nth-child(3) .floor-title {
+    color: #a93931;
+    border-bottom: 1px solid #a93931;
+}
+.floor-wrap:nth-child(4) .floor-title {
+    color: #488bad;
+    border-bottom: 1px solid #488bad;
+}
+.floor-wrap:nth-child(5) .floor-title {
+    color: #642663;
+    border-bottom: 1px solid #642663;
+}
+.floor-wrap .floor-list {
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list .floor-item {
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #ffffff;
+}
+.floor-wrap .floor-list .floor-item:hover {
+    box-shadow: 1px 1px 7px #dddddd;
+}
+.floor-wrap .floor-list .floor-item .floor-text {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555555;
+}
+.floor-wrap .floor-list .floor-item .floor-image {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}

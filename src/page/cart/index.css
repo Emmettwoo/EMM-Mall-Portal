@@ -1,0 +1,128 @@
+/* 购物车整体样式 */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+/* 购物车分栏样式 */
+.cart-table .cell-check {
+    width: 6%;
+    text-align: left;
+    padding-left: 20px;
+}
+.cart-table .cell-info {
+    width: 35%;
+    text-align: left;
+}
+.cart-table .cell-price {
+    width: 10%;
+    text-align: center;
+}
+.cart-table .cell-amount {
+    width: 15%;
+    text-align: center;
+}
+.cart-table .cell-total {
+    width: 14%;
+    text-align: center;
+    font-weight: bold;
+}
+.cart-table .cell-opera {
+    width: 10%;
+    text-align: center;
+}
+
+/* 购物车头部 */
+.cart-header {
+    background: #eeeeee;
+}
+.cart-header .cart-cell {
+    height: 40px;
+    line-height: 40px;
+}
+.cart-header .cell-info {
+    width: 45%;
+    padding-left: 106px;
+}
+
+/* 购物车内容 */
+.cart-table .cell-image {
+    width: 10%;
+    text-align: left;
+}
+.cart-table .cell-image .product-image {
+    margin: 10px 0;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #dddddd;
+}
+
+.cart-table .cell-amount .cart-amount {
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    color: #333333;
+}
+.cart-table .cell-amount .cart-amount-button {
+    display: inline-block;
+    width: 20px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #dddddd;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #ffffff;
+    /* 各种浏览器都不想给选中文字嘤嘤嘤 */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* 购物车底部 */
+.cart-footer {
+    position: relative;
+    line-height: 50px;
+    background: #eeeeee;
+    overflow: hidden;
+}
+.cart-footer .select-content {
+    float: left;
+    margin-left: 20px;
+}
+.cart-footer .delete-content {
+    float: left;
+    margin-left: 20px;
+}
+.cart-footer .submit-content {
+    float: right;
+}
+.cart-footer .submit-content .submit-total {
+    font-size: 18px;
+    color: #c60023;
+    font-weight: bold;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+.cart-footer .submit-content .submit-button {
+    width: 67.9px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* 请求信息错误返回 */
+.error-tips {
+    font-size: 30px;
+    height: 60ox;
+    line-height: 60px;
+    color: #ff6600;
+    font-weight: bold;
+    text-align: center;
+    background: #eeeeee;
+}

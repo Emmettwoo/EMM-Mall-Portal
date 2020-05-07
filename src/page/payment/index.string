@@ -1,0 +1,7 @@
+<p class="payment-tips order-commit">订单{{orderNo}}提交成功，请尽快支付</p>
+<p class="payment-tips payment-desc">使用支付宝扫描以下二维码支付</p>
+<div class="payment-image">
+    <img class="qr-code" src="{{qrUrl}}" alt="支付二维码" />
+</div>
+<p class="payment-tips sandbox-warning">请注意，目前交易系统仅运行于支付宝沙箱环境。</p>
+<p class="payment-tips sandbox-warning">不产生实际交易，还请使用支付宝（沙箱版）进行支付。</p>

@@ -1,0 +1,35 @@
+<div class="user-info">
+    <div class="info-line">
+        <span class="label">用户名称：</span>
+        <span class="text">{{username}}</span>
+    </div>
+    <div class="info-line">
+        <span class="label">邮箱地址：</span>
+        <span class="text">{{email}}</span>
+    </div>
+    <div class="info-line">
+        <span class="label">手机号码：</span>
+        <span class="text">{{phone}}</span>
+    </div>
+    <div class="info-line">
+        <span class="label">安全问题：</span>
+        <span class="text">{{question}}</span>
+    </div>
+    <div class="info-line">
+        <span class="label">问题答案：</span>
+        <span class="text">{{answer}}</span>
+    </div>
+    <div class="info-line">
+        <span class="label">用户组别：</span>
+        <span class="text">{{role}}</span>
+    </div>
+    <div class="info-line">
+        <span class="label">注册时间：</span>
+        <span class="text">{{createTime}}</span>
+    </div>
+    <div class="info-line">
+        <span class="label">更新时间：</span>
+        <span class="text">{{updateTime}}</span>
+    </div>
+    <a class="button button-submit" href="./user-update.html">修改信息</a>
+</div>

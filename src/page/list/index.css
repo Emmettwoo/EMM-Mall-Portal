@@ -1,0 +1,86 @@
+/* 排序按钮样式 */
+.sort-content {
+    overflow: auto;
+}
+.sort-content .sort-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 0 8px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #cccccc;
+    margin-right: -1px;
+    background: #ffffff;
+    color: #333333;
+    cursor: pointer;
+}
+.sort-content .sort-item.active {
+    background: #c60023;
+    border: 1px solid #c60023;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.sort-content .sort-item .fa.fa-sort-desc {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.sort-content .sort-item.asc .fa.fa-sort-desc {
+    opacity: .6;
+}
+.sort-content .sort-item.desc .fa.fa-sort-asc {
+    opacity: .6;
+}
+
+/* 商品列表样式 */
+.list-content {
+    margin-top: 15px;
+    margin-right: -20px;
+    overflow: hidden;
+}
+.list-content .list-item {
+    position: relative;
+    width: 180px;
+    float: left;
+    padding: 10px;
+    margin: 0 20px 20px 0;
+    background: #ffffff;
+}
+.list-content .list-item .image-content {
+    height: 180px;
+    line-height: 180px;
+}
+.list-content .list-item .image-content .product-image {
+    width: 100%;
+    height: 100%;
+}
+.list-content .list-item .price-content {
+    height: 30px;
+    line-height: 30px;
+}
+.list-content .list-item .price-content .product-price {
+    font-size: 16px;
+    color: #e7380d;
+}
+.list-content .list-item .name-content {
+    height: 40px;
+    overflow: hidden;
+}
+.list-content .list-item .name-content .product-name {
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #666666;
+    text-decoration: none;
+}
+
+/* 请求信息错误返回 */
+.error-tips {
+    font-size: 30px;
+    height: 60ox;
+    line-height: 60px;
+    color: #ff6600;
+    font-weight: bold;
+    text-align: center;
+    background: #eeeeee;
+}

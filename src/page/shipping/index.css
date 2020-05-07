@@ -1,0 +1,78 @@
+/* 新增收货地址 */
+.mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eeeeee;
+    background: rgba(0,0,0,.4);
+    z-index: 1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.shipping-new-window {
+    width: 410px;
+    height: 360px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 2px;
+}
+.shipping-new-window .window-header {
+    position: relative;
+    padding: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+.shipping-new-window .window-title {
+    font-size: 18px;
+}
+.shipping-new-window .window-close {
+    position: absolute;
+    font-size: 18px;
+    padding: 10px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.shipping-new-window .window-body {
+    padding: 20px;
+}
+.shipping-content .content-line {
+    margin: 5px 0;
+    overflow: hidden;
+}
+.shipping-content .content-line .content-title {
+    display: block;
+    float: left;
+    width: 80px;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.shipping-content .content-line .content-title .required {
+    color: red;
+}
+.shipping-content .content-line .content-input {
+    padding: 0 5px;
+    width: 246px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+}
+.shipping-content .content-line .content-select {
+    padding: 0 5px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    margin-right: 5px;
+}
+.shipping-content .content-line .shipping-add-button {
+    margin-top: 20px;
+    margin-left: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}

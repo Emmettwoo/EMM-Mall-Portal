@@ -1,0 +1,22 @@
+<div class="pagination-content">
+    {{#pageArray}}
+        {{#disabled}}
+            <span class="pagination-item disabled" data-value="{{value}}">{{name}}</span>
+        {{/disabled}}
+        {{^disabled}}
+            {{#active}}
+                <span class="pagination-item active" data-value="{{value}}">{{name}}</span>
+            {{/active}}
+            {{^active}}
+                <span class="pagination-item" data-value="{{value}}">{{name}}</span>
+            {{/active}}
+        {{/disabled}}
+    {{/pageArray}}
+    <span class="pagination-total">
+        (
+        <input class="total-content" value="{{pageNum}}" id="jump-number"></input>
+        /
+        <input class="total-content" disabled="disabled" value="{{pages}}"></input>
+        )
+    </span>
+</div>

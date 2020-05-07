@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <title><%=htmlWebpackPlugin.options.title%> @ EMM-Mall</title>
+    <%= require('html-loader!./layout/head-common.html') %>
+</head>
+<body>
+<%= require('html-loader!./layout/nav-simple.html') %>
+<div class="page-wrap w">
+    <div class="result-content register-success">
+        <h1 class="content-title">注册成功</h1>
+        <div class="content-action">
+            <a class="link" href="./index.html">回到首页</a>
+        </div>
+    </div>
+
+    <div class="result-content pwd-reset-success">
+        <h1 class="content-title">重置成功</h1>
+        <div class="content-action">
+            <a class="link" href="./user-login.html">立即登入</a>
+            <a class="link" href="./index.html">回到首页</a>
+        </div>
+    </div>
+
+    <div class="result-content cart-add-success">
+        <h1 class="content-title">添加成功</h1>
+        <div class="content-action">
+            <a class="link" href="javascript:history.go(-1)">返回商品页</a>
+            <a class="link" href="./cart.html">查看购物车</a>
+            <a class="link" href="./index.html">回到首页</a>
+        </div>
+    </div>
+
+    <div class="result-content payment-success">
+        <h1 class="content-title">支付成功</h1>
+        <div class="content-action">
+            <a class="link check-order" href="#">查看订单</a>
+            <a class="link" href="./index.html">回到首页</a>
+        </div>
+    </div>
+
+    <div class="result-content default-success">
+        <h1 class="content-title">操作成功</h1>
+        <div class="content-action">
+            <a class="link" href="./index.html">回到首页</a>
+        </div>
+    </div>
+</div>
+<%= require('html-loader!./layout/footer.html') %>
+</body>
+</html>

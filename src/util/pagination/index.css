@@ -1,0 +1,44 @@
+.pagination-content {
+    text-align: center;
+    color: #333333;
+    /* 各种浏览器都不想给选中文字嘤嘤嘤 */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pagination-content .pagination-item {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 15px;
+    margin: 0 2px;
+    border: 1px solid #cccccc;
+    background: #eeeeee;
+    cursor: pointer;
+}
+.pagination-content .pagination-item.disabled {
+    color: #cccccc;
+    background: none;
+    cursor: auto;
+}
+.pagination-content .pagination-item.active {
+    border:1px solid #f6f6f6;
+    background: none;
+    cursor: auto;
+}
+
+.pagination-content .pagination-total {
+    margin-left: 20px;
+    color: #333333;
+    background: none;
+    cursor: auto;
+}
+.pagination-content .pagination-total .total-content {
+    color: #333333;
+    width: 20px;
+    text-align: center;
+    background: none;
+    border: none;
+}

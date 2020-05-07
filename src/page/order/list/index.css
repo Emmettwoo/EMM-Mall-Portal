@@ -1,0 +1,76 @@
+/* 订单列表表格整体 */
+.order-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fafafa;
+    margin-bottom: 20px;
+}
+.order-list-table .cell {
+    padding: 10px 0;
+    color: #666666;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* 表格头部标题 */
+.order-list-table.list-header {
+    background: #eeeeee;
+}
+
+/* 表格订单信息 */
+.order-list-table .order-info {
+    background: #eeeeee;
+    padding: 10px;
+}
+.order-list-table .order-info .order-text {
+    margin-right: 25px;
+}
+.order-list-table .order-info .order-text .order-id {
+    font-weight: bold;
+}
+.order-list-table .order-info .order-text .order-price {
+    font-weight: bold;
+    color: #c60023;
+}
+.order-list-table .order-info .order-text .order-detail {
+    float: right;
+    margin-right: 32px;
+}
+
+/* 表格商品信息 */
+.order-list-table .cell-image {
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+}
+.order-list-table .cell-image .product-image {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #dddddd;
+}
+.order-list-table .cell-info {
+    width: 45%;
+    text-align: left;
+}
+.order-list-table .cell-price {
+    width: 15%;
+    text-align: center;
+}
+.order-list-table .cell-amount {
+    width: 15%;
+    text-align: center;
+}
+.order-list-table .cell-total {
+    width: 15%;
+    text-align: center;
+}
+
+/* 请求信息错误返回 */
+.error-tips {
+    font-size: 30px;
+    height: 60ox;
+    line-height: 60px;
+    color: #ff6600;
+    font-weight: bold;
+    text-align: center;
+    background: #eeeeee;
+}

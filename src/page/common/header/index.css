@@ -1,0 +1,43 @@
+/* 通用头部导航 */
+.header .logo {
+	position: absolute;
+	left: 50px;
+	top: 35px;
+	display: block;
+	font-size: 36px;
+	color: #C60023;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.header .search-content {
+	padding: 40px 0 30px 250px;
+}
+
+.header .search-content .search-input{
+	width: 550px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	border: 2px solid #C60023;
+	outline: none;
+}
+
+.header .search-content .search-button{
+	position: absolute;
+	/* 44px = .search-input.(height + border) */
+	height: 44px;
+	width: 80px;
+}
+
+/* 面包屑导航 */
+.crumb {
+	margin-bottom: 15px;
+	height: 50px;
+	line-height: 50px;
+	background: #eeeeee;
+	color: #888888;
+	font-size: 14px;
+	border-top: 2px solid #c60023;
+}
