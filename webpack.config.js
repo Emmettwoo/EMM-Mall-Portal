@@ -15,7 +15,7 @@ let getHtmlConfig = function(name, title) {
         // 处理后的输出位置
         filename: 'view/' + name + '.html',
         // 网页favicon图标
-        favicon: './favicon.ico',
+        favicon: 'favicon.ico',
         // 供HTML读取用的标题
         title: title,
         // 是否注入js
