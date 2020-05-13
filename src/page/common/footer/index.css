@@ -10,6 +10,9 @@
 .footer .links .link {
 	padding: 0 10px;
 }
+.footer .links .police_beian_icon {
+	display: inline-block;
+}
 
 .copyright {
 	text-align: center;
