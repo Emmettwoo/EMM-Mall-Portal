@@ -17,7 +17,7 @@
     </div>
     <div class="info-line">
         <span class="label">问题答案：</span>
-        <input class="input" id="answer" autocomplete="off" value={{answer}}></input>
+        <input class="input" id="answer" autocomplete="off" placeholder="*此处留空则不更新*"></input>
     </div>
     <div class="info-line">
         <span class="label">用户组别：</span>

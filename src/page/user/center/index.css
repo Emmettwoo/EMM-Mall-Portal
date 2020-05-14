@@ -8,3 +8,7 @@
     display: inline-block;
     width: 80px;
 }
+
+.text.thin {
+    color: #666666;
+}

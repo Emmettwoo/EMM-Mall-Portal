@@ -17,7 +17,7 @@
     </div>
     <div class="info-line">
         <span class="label">问题答案：</span>
-        <span class="text">{{answer}}</span>
+        <span class="text thin">*已隐藏*</span>
     </div>
     <div class="info-line">
         <span class="label">用户组别：</span>

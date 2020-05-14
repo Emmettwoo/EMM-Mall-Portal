@@ -77,11 +77,6 @@ let page = {
             result.msg = '安全问题不能为空';
             return result;
         }
-        // 问题答案为空
-        if(!_mall.validate(userInfo.answer, 'require')) {
-            result.msg = '问题答案不能为空';
-            return result;
-        }
 
         // 数据验证全通过
         result.status = true;
