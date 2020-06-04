@@ -1,8 +1,8 @@
 /* 左侧品类导航 */
 .category-list {
     float: left;
-    width: 240px;
-    height: 350px;
+    width: 280px;
+    height: 560px;
     padding: 10px 0;
     margin-left: 10px;
     background: #666666;
@@ -12,13 +12,13 @@
     background: #999999;
 }
 .category-list .category-item .category-first {
-    padding-left: 10px;
+    padding-left: 20px;
     height: 35x;
     line-height: 35px;
     font-size: 18px;
 }
 .category-list .category-item .category-second {
-    padding-left: 10px;
+    padding-left: 25px;
     padding-bottom: 10px;
     height: 25px;
     line-height: 25px;
@@ -34,23 +34,24 @@
 
 /* 首页轮播图 */
 .banner-content {
-    width: 830px;
+    width: 780px;
     float: left;
     /* category-list.padding&height */
-    height: 370px;
+    height: 580px;
     background: #eeeeee;
 }
 .banner-content .loading {
     margin-top: 150px;
 }
 .banner-content .banner-image {
-    width: 100%;
-    height: 370px;
+    width: 780px;
+    height: 580px;
 }
+
 /* 首页轮播图前后跳转箭头 */
 .banner-content .banner-arrow {
     position: absolute;
-    top: 160px;
+    top: 270px;
     width: 30px;
     height: 50px;
     line-height: 50px;
@@ -84,20 +85,36 @@
 }
 /* 更改楼层主题颜色 */
 .floor-wrap:nth-child(2) .floor-title {
-    color: #3b838c;
-    border-bottom: 1px solid #3b838c;
+    color: #ffcc00;
+    border-bottom: 1px solid #ffcc00;
 }
 .floor-wrap:nth-child(3) .floor-title {
-    color: #a93931;
-    border-bottom: 1px solid #a93931;
+    color: #ff9900;
+    border-bottom: 1px solid #ff9900;
 }
 .floor-wrap:nth-child(4) .floor-title {
-    color: #488bad;
-    border-bottom: 1px solid #488bad;
+    color: #ff6600;
+    border-bottom: 1px solid #ff6600;
 }
 .floor-wrap:nth-child(5) .floor-title {
-    color: #642663;
-    border-bottom: 1px solid #642663;
+    color: #ff3300;
+    border-bottom: 1px solid #ff3300;
+}
+.floor-wrap:nth-child(6) .floor-title {
+    color: #ffcc33;
+    border-bottom: 1px solid #ffcc33;
+}
+.floor-wrap:nth-child(7) .floor-title {
+    color: #ff9933;
+    border-bottom: 1px solid #ff9933;
+}
+.floor-wrap:nth-child(8) .floor-title {
+    color: #ff6633;
+    border-bottom: 1px solid #ff6633;
+}
+.floor-wrap:nth-child(9) .floor-title {
+    color: #ff3333;
+    border-bottom: 1px solid #ff3333;
 }
 .floor-wrap .floor-list {
     margin-right: -20px;
