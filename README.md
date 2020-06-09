@@ -4,22 +4,20 @@
 
 
 
-
 ## Intro.简介
 
-![Features](/wiki/images/Features.png)
+![Features](/resources/Features.png)
+
+[^图 Features.png]: 基于V1.0.0版本的项目功能图
 
 ---
 
 ## Version.版本
 
-- [x] V0.1.0 [Common Function](/src/page/common) 通用功能
-- [x] V0.2.0 [User Module](/wiki/UserModule.md) 用户模块
-- [x] V0.3.0 [Product Module](/wiki/ProductModule.md) 商品模块
-- [x] V0.4.0 [Cart Module](/wiki/CartModule.md) 购物车模块
-- [x] V0.5.0 [Shipping Module](/wiki/OrderModule.md) 收货地址模块
-- [x] V0.6.0 [Order Module](/wiki/OrderModule.md) 订单模块
-- [x] V0.7.0 [Payment Module](/wiki/PaymentModule.md) 支付模块
+- [x] V1.0.0 首个可用版本
+- [ ] V1.1.0 商品副图查看
+- [ ] V1.2.0 支持商品评论
+- [ ] V2.0.0 首页动态数据
 
 ---
 
