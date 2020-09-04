@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "---------- EMM-Mall前端 部署开始 ----------"
+echo "---------- EMM-Ark前端 部署开始 ----------"
 
 
 echo "1. 清理以前的部署残留"
@@ -10,7 +10,7 @@ echo "2. 进入前端项目目录"
 cd /home/mall/Git/EMM-Mall-Portal/
 
 echo "3. 切换git到主分支"
-git checkout master
+git checkout arknight
 
 echo "4. 更新git的分支信息"
 git fetch
@@ -34,4 +34,4 @@ echo "10. 部署新的resource文件"
 mv /home/mall/Git/EMM-Mall-Portal/dist/* /www/wwwroot/mall/resource
 
 
-echo "---------- EMM-Mall前端 部署完成 ----------"
+echo "---------- EMM-Ark前端 部署完成 ----------"
