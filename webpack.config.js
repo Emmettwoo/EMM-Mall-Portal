@@ -120,7 +120,20 @@ let config = {
         new HtmlWebpackPlugin(getHtmlConfig('user-pwd-update', '密码修改')),
         new HtmlWebpackPlugin(getHtmlConfig('user-center', '用户中心')),
         new HtmlWebpackPlugin(getHtmlConfig('user-update', '修改信息'))
-    ]
+    ],
+    devServer: {
+        port: 8088,
+        historyApiFallback: {
+            index: "/dist/view/index.html"
+        },
+        // 开发调试用的接口转发
+        proxy: {
+            "/*.do": {
+                target: "http://mall.woohoo.top/",
+                changeOrigin: true
+            }
+        }
+    }
 };
 
 module.exports = config;

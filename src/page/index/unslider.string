@@ -1,29 +1,25 @@
 <div class="banner">
     <ul>
         <li>
-            <a href="./detail.html?productId=1">
-                <img class="banner-image" src="http://img.woohoo.top/241997c4-9e62-4824-b7f0-7425c3c28917.jpeg" alt="Apple iPhone 7 Plus" />
-            </a>
+            <img class="banner-image" src="http://q.woohoo.top/unslider_banner/banner-0.png" alt="初入罗德岛" />
         </li>
         <li>
-            <a href="./detail.html?productId=2">
-                <img class="banner-image" src="http://img.woohoo.top/ac3e571d-13ce-4fad-89e8-c92c2eccf536.jpeg" alt="美的 双开门冰箱" />
-			</a>
+            <img class="banner-image" src="http://q.woohoo.top/unslider_banner/banner-1.png" alt="罗德岛元老" />
         </li>
         <li>
-            <a href="./detail.html?productId=3">
-                <img class="banner-image" src="http://img.woohoo.top/0093f5d3-bdb4-4fb0-bec5-5465dfd26363.jpeg" alt="华为 nova P9/P10plus" />
-			</a>
+            <img class="banner-image" src="http://q.woohoo.top/unslider_banner/banner-2.png" alt="企鹅物流们" />
         </li>
         <li>
-            <a href="./detail.html?productId=4">
-                <img class="banner-image" src="http://img.woohoo.top/173335a4-5dce-4afd-9f18-a10623724c4e.jpeg" alt="海尔 滚筒洗衣机" />
-			</a>
+            <img class="banner-image" src="http://q.woohoo.top/unslider_banner/banner-3.png" alt="莱茵一家人" />
         </li>
         <li>
-            <a href="./detail.html?productId=0">
-                <img class="banner-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
-			</a>
+            <img class="banner-image" src="http://q.woohoo.top/unslider_banner/banner-4.png" alt="乌萨斯学生" />
+        </li>
+        <li>
+            <img class="banner-image" src="http://q.woohoo.top/unslider_banner/banner-5.png" alt="喀兰大集团" />
+        </li>
+        <li>
+            <img class="banner-image" src="http://q.woohoo.top/unslider_banner/banner-6.png" alt="莱茵生命司" />
         </li>
     </ul>
     <div class="banner-arrow prev">
