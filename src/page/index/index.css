@@ -2,7 +2,7 @@
 .category-list {
     float: left;
     width: 240px;
-    height: 350px;
+    height: 420px;
     padding: 10px 0;
     margin-left: 10px;
     background: #666666;
@@ -37,7 +37,7 @@
     width: 830px;
     float: left;
     /* category-list.padding&height */
-    height: 370px;
+    height: 420px;
     background: #eeeeee;
 }
 .banner-content .loading {
@@ -45,7 +45,7 @@
 }
 .banner-content .banner-image {
     width: 100%;
-    height: 370px;
+    height: 450px;
 }
 /* 首页轮播图前后跳转箭头 */
 .banner-content .banner-arrow {

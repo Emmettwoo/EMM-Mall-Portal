@@ -1,68 +1,86 @@
 <!DOCTYPE html>
 <html lang="cn">
 	<head>
+	<script type="text/javascript">
+		alert("使用前提示：该网站仅供项目演示用，不涉及任何实际交易！内容来自互联网，侵删。")
+	</script>
 		<title><%=htmlWebpackPlugin.options.title%> @ EMM-Mall</title>
 		<%= require('html-loader!./layout/head-common.html') %>
 	</head>
 	<body>
 		<%= require('html-loader!./layout/nav.html') %>
 		<%= require('html-loader!./layout/header.html') %>
+		
 		<div class="w">
 			<!-- 品类导航栏 -->
 			<ul class="category-list">
 				<div class="category-item">
 					<li class="category-first">
-						<a class="link" target="_blank" href="./list.html?categoryId=100001">家用电器</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100001">衣</a>
 					</li>
 					<li class="category-second">
-						<a class="link" target="_blank" href="./list.html?categoryId=100006">冰箱</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100007">电视</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100008">洗衣机</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100009">空调</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100006">男装</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100007">女装</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100008">童装</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100009">内衣</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100010">鞋品</a>
+					</li>
+					<li class="category-second">
+						<a class="link" target="_blank" href="./list.html?categoryId=100011">箱包</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100012">钟表</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100013">珠宝</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100014">美妆</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100015">个护</a>
 					</li>
 				</div>
 				<div class="category-item">
 					<li class="category-first">
-						<a class="link" target="_blank" href="./list.html?categoryId=100002">数码3C</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100002">食</a>
 					</li>
 					<li class="category-second">
-						<a class="link" target="_blank" href="./list.html?categoryId=100011">电脑</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100012">手机</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100014">数码相机</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100015">3C配件</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100016">食品</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100017">酒类</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100018">生鲜</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100019">特产</a>
 					</li>
 				</div>
 				<div class="category-item">
 					<li class="category-first">
-						<a class="link" target="_blank" href="./list.html?categoryId=100003">服装箱包</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100003">住</a>
 					</li>
 					<li class="category-second">
-						<a class="link" target="_blank" href="./list.html?categoryId=100016">女装</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100017">帽子</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100018">旅行箱</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100019">手提包</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100020">家具</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100021">家装</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100022">厨具</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100023">家电</a>
+					</li>
+					<li class="category-second">
+						<a class="link" target="_blank" href="./list.html?categoryId=100024">手机</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100025">运营商</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100026">数码</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100027">电脑</a>
 					</li>
 				</div>
 				<div class="category-item">
 					<li class="category-first">
-						<a class="link" target="_blank" href="./list.html?categoryId=100004">食品生鲜</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100004">行</a>
 					</li>
 					<li class="category-second">
-						<a class="link" target="_blank" href="./list.html?categoryId=100021">零食</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100022">生鲜</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100024">速冻食品</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100025">进口食品</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100028">汽车</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100029">汽车用品</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100030">户外</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100031">运动用品</a>
 					</li>
 				</div>
 				<div class="category-item">
 					<li class="category-first">
-						<a class="link" target="_blank" href="./list.html?categoryId=100005">酒水饮料</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100005">教</a>
 					</li>
 					<li class="category-second">
-						<a class="link" target="_blank" href="./list.html?categoryId=100028">饮料</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100026">白酒</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100027">红酒</a>
-						<a class="link" target="_blank" href="./list.html?categoryId=100030">进口洋酒</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100032">图书</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100033">电子书</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100034">玩具</a>
+						<a class="link" target="_blank" href="./list.html?categoryId=100035">乐器</a>
 					</li>
 				</div>
 			</ul>
@@ -76,176 +94,176 @@
 		<div class="w">
 			
 			<div class="floor-wrap">
-				<h1 class="floor-title">F1 家用电器</h1>
+				<h1 class="floor-title">F1 衣心衣意</h1>
 				<ul class="floor-list">
 					<li class="floor-item">
-						<a href="./detail.html?productId=2">
-							<span class="floor-text">美的 双开门冰箱</span>
-							<img class="floor-image" src="http://img.woohoo.top/ac3e571d-13ce-4fad-89e8-c92c2eccf536.jpeg" alt="美的 双开门冰箱" />
+						<a href="./detail.html?productId=30">
+							<span class="floor-text">红豆Hodo 职业短袖衬衫</span>
+							<img class="floor-image" src="http://img.woohoo.top/6bd77f7d-4962-4b39-83d4-55ebd4d72f35.jpg" alt="红豆Hodo 男士商务休闲正装纯色短袖衬衣 职业装短袖衬衫" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=2">
-							<span class="floor-text">美的 双开门冰箱</span>
-							<img class="floor-image" src="http://img.woohoo.top/ac3e571d-13ce-4fad-89e8-c92c2eccf536.jpeg" alt="美的 双开门冰箱" />
+						<a href="./detail.html?productId=34">
+							<span class="floor-text">地平线8号行李箱</span>
+							<img class="floor-image" src="http://img.woohoo.top/66b560be-da84-4db9-8bdf-bd305129faf2.jpg" alt="地平线8号（LEVEL8）行李箱旅行箱登机箱德国PC箱体男女拉杆箱" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=2">
-							<span class="floor-text">美的 双开门冰箱</span>
-							<img class="floor-image" src="http://img.woohoo.top/ac3e571d-13ce-4fad-89e8-c92c2eccf536.jpeg" alt="美的 双开门冰箱" />
+						<a href="./detail.html?productId=35">
+							<span class="floor-text">Venu2S玫瑰金手表</span>
+							<img class="floor-image" src="http://img.woohoo.top/4c176d0e-2599-4f64-8a83-772bbd4ce372.jpg" alt="佳明（GARMIN）Venu2S玫瑰金触屏智能运动手表" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=4">
-							<span class="floor-text">海尔 滚筒洗衣机</span>
-							<img class="floor-image" src="http://img.woohoo.top/173335a4-5dce-4afd-9f18-a10623724c4e.jpeg" alt="海尔 滚筒洗衣机" />
+						<a href="./detail.html?productId=36">
+							<span class="floor-text">ALTO黑碳纹理双环</span>
+							<img class="floor-image" src="http://img.woohoo.top/52430fe1-c6e2-4f16-a85f-a75f8832550f.jpg" alt="施华洛世奇 ALTO黑碳纹理双环造型简洁休闲时尚" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=4">
-							<span class="floor-text">海尔 滚筒洗衣机</span>
-							<img class="floor-image" src="http://img.woohoo.top/173335a4-5dce-4afd-9f18-a10623724c4e.jpeg" alt="海尔 滚筒洗衣机" />
+						<a href="./detail.html?productId=38">
+							<span class="floor-text">瓷遇洗脸巾袋装</span>
+							<img class="floor-image" src="http://img.woohoo.top/0c029eed-ee14-457d-b60c-a32b7bf89683.jpg" alt="瓷遇洗脸巾袋装" />
 						</a>
 					</li>
 				</ul>
 			</div>
 			<div class="floor-wrap">
-				<h1 class="floor-title">F2 数码3C</h1>
+				<h1 class="floor-title">F2 食全食美</h1>
 				<ul class="floor-list">
 					<li class="floor-item">
-						<a href="./detail.html?productId=1">
-							<span class="floor-text">Apple iPhone 7 Plus</span>
-							<img class="floor-image" src="http://img.woohoo.top/241997c4-9e62-4824-b7f0-7425c3c28917.jpeg" alt="Apple iPhone 7 Plus" />
+						<a href="./detail.html?productId=40">
+							<span class="floor-text">三只松鼠坚果礼盒</span>
+							<img class="floor-image" src="http://img.woohoo.top/28c60840-d347-4b83-b8f7-a659ed1815d9.jpg" alt="三只松鼠坚果礼盒9袋装1710g 火红A零食大礼包" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=1">
-							<span class="floor-text">Apple iPhone 7 Plus</span>
-							<img class="floor-image" src="http://img.woohoo.top/241997c4-9e62-4824-b7f0-7425c3c28917.jpeg" alt="Apple iPhone 7 Plus" />
+						<a href="./detail.html?productId=41">
+							<span class="floor-text">旺仔牛奶组合装</span>
+							<img class="floor-image" src="http://img.woohoo.top/2b64941b-e199-4cda-9e03-a04d1e9f24a9.jpg" alt="旺旺 旺仔牛奶 6原味+6原味O泡（组合装）" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=3">
-							<span class="floor-text">华为 nova P9/P10plus</span>
-							<img class="floor-image" src="http://img.woohoo.top/0093f5d3-bdb4-4fb0-bec5-5465dfd26363.jpeg" alt="华为 nova P9/P10plus" />
+						<a href="./detail.html?productId=42">
+							<span class="floor-text">5.0小麦白啤酒原浆型</span>
+							<img class="floor-image" src="http://img.woohoo.top/38b45836-bd40-49be-a534-f31abafd620a.jpg" alt="5.0德国进口小麦白啤酒原浆型" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=3">
-							<span class="floor-text">华为 nova P9/P10plus</span>
-							<img class="floor-image" src="http://img.woohoo.top/0093f5d3-bdb4-4fb0-bec5-5465dfd26363.jpeg" alt="华为 nova P9/P10plus" />
+						<a href="./detail.html?productId=65">
+							<span class="floor-text">丹东99草莓2斤装</span>
+							<img class="floor-image" src="http://img.woohoo.top/45db7075-de68-4c8b-aa1a-17571708cbdf.jpg" alt="丹东99草莓2斤装 新鲜水果" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=3">
-							<span class="floor-text">华为 nova P9/P10plus</span>
-							<img class="floor-image" src="http://img.woohoo.top/0093f5d3-bdb4-4fb0-bec5-5465dfd26363.jpeg" alt="华为 nova P9/P10plus" />
+						<a href="./detail.html?productId=44">
+							<span class="floor-text">河南特产 三黄鸡</span>
+							<img class="floor-image" src="http://img.woohoo.top/0a7e8c5a-6953-4026-a471-f8148b5ef31a.jpg" alt="【河南农特产馆】三黄鸡土鸡 800g左右1只 3只装" />
 						</a>
 					</li>
 				</ul>
 			</div>
 			<div class="floor-wrap">
-				<h1 class="floor-title">F3 服装箱包</h1>
+				<h1 class="floor-title">F3 按捺不住</h1>
 				<ul class="floor-list">
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=46">
+							<span class="floor-text">中派 极简岩板餐桌</span>
+							<img class="floor-image" src="http://img.woohoo.top/fcae98e5-0b06-4913-a0ef-c71211d00448.jpg" alt="中派 北欧极简岩板餐桌组合可伸缩家用大理石餐桌椅套装" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=48">
+							<span class="floor-text">三角形马赛克瓷砖</span>
+							<img class="floor-image" src="http://img.woohoo.top/0ac6e945-5ee5-458d-8815-885c583b89b3.jpg" alt="金属自粘马赛克瓷砖墙纸电视背景墙玄关卫生间自贴瓷砖浴室三角形" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=49">
+							<span class="floor-text">美的石色不粘炒锅</span>
+							<img class="floor-image" src="http://img.woohoo.top/794a32f7-93d6-443a-876d-d8c6eb0236ac.jpg" alt="美的（Midea）典雅金麦饭石色涂层不粘炒锅" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=50">
+							<span class="floor-text">小米全面屏电视</span>
+							<img class="floor-image" src="http://img.woohoo.top/076d2d34-bf64-47f8-a5d1-304ab0781e90.jpg" alt="小米全面屏电视 65英寸Pro E65S" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=51">
+							<span class="floor-text">Apple iPhone 12</span>
+							<img class="floor-image" src="http://img.woohoo.top/ee36251d-2f5e-4217-b773-526d39309be7.jpg" alt="Apple iPhone 12 (A2404) 64GB 紫色" />
 						</a>
 					</li>
 				</ul>
 			</div>
 			<div class="floor-wrap">
-				<h1 class="floor-title">F4 食品生鲜</h1>
+				<h1 class="floor-title">F4 行千里路</h1>
 				<ul class="floor-list">
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=55">
+							<span class="floor-text">北汽新能源观光车</span>
+							<img class="floor-image" src="http://img.woohoo.top/2d5a1bbe-e912-442e-8af7-7080bb04d6a2.jpg" alt="北汽新能源观光车 14座" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=56">
+							<span class="floor-text">奥迪机油/润滑油</span>
+							<img class="floor-image" src="http://img.woohoo.top/20f3676c-141a-47f3-9615-1209c5632f9b.jpg" alt="奥迪(AUDI) 4S店原厂汽车用品 机油/润滑油" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=57">
+							<span class="floor-text">全面屏行车记录仪</span>
+							<img class="floor-image" src="http://img.woohoo.top/28a49cb2-f46a-4a28-adf9-88f2f7d35abe.jpg" alt="麦谷车联X8S 全面屏行车记录仪 4G流媒体智能后视镜" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=58">
+							<span class="floor-text">星特朗天文望远镜</span>
+							<img class="floor-image" src="http://img.woohoo.top/65a8816f-e186-4c58-a811-c3b39a0e457a.jpg" alt="星特朗（CELESTRON）天文望远镜80DX（Deluxe80EQ）" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=59">
+							<span class="floor-text">麦瑞克Merach椭圆机</span>
+							<img class="floor-image" src="http://img.woohoo.top/3e342a9c-7cf3-4f65-a9b6-d8f576a44581.jpg" alt="麦瑞克Merach椭圆机家用商用太空漫步机" />
 						</a>
 					</li>
 				</ul>
 			</div>
 			<div class="floor-wrap">
-				<h1 class="floor-title">F5 酒水饮料</h1>
+				<h1 class="floor-title">F5 教之有方</h1>
 				<ul class="floor-list">
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=60">
+							<span class="floor-text">拉不拉东的算法小抄</span>
+							<img class="floor-image" src="http://img.woohoo.top/9668d4ae-294f-40f5-ad6c-cfcd9eda1c97.jpg" alt="labuladong的算法小抄" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=53">
+							<span class="floor-text">Kindle paperwhite</span>
+							<img class="floor-image" src="http://img.woohoo.top/4b23c736-f864-4a22-b3bc-3bb17a5c8a93.jpg" alt="Kindle paperwhite 电子书阅读器" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=62">
+							<span class="floor-text">皇冠玩具木质足球台</span>
+							<img class="floor-image" src="http://img.woohoo.top/891beb38-3005-40c3-a998-334e17d2a74c.jpg" alt="皇冠玩具（ HUANGGUAN）中密度木质足球台" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=63">
+							<span class="floor-text">恩雅智能尤克里里</span>
+							<img class="floor-image" src="http://img.woohoo.top/a6546e28-5771-4470-bee8-3bf9573c223d.jpg" alt="恩雅（enya）MU1恩雅智能尤克里里23英寸" />
 						</a>
 					</li>
 					<li class="floor-item">
-						<a href="./detail.html?productId=0">
-							<span class="floor-text">不存在的商品</span>
-							<img class="floor-image" src="http://img.woohoo.top/404.jpeg" alt="不存在的商品" />
+						<a href="./detail.html?productId=64">
+							<span class="floor-text">雅马哈入门电子鼓</span>
+							<img class="floor-image" src="http://img.woohoo.top/ad5dcd72-46ee-4dcd-8e02-6f4574b7df0b.jpg" alt="雅马哈（YAMAHA）DTX452K入门升级款电子鼓" />
 						</a>
 					</li>
 				</ul>
